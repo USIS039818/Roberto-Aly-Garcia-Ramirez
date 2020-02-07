@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background-image: url(/IMAGE/profe.webp);
+    width: 100x;
+    height: 100vh;
+    background-size: cover;
+    font-size: 15px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+input, textarea{
+    height: 25px;
+    border: solid 1px rgb(35, 117, 231);
+    border-radius: 5px;
+    
+}https:github.com/USIS039818/FormEstudiante.git
+textarea{
+    height: auto;
+}
+input[type=text]{
+    margin-left: 10%;
+}
+input[type=submit], 
+input[type=button]{
+    background-color: rgb(71, 196, 22);
+    color: rgb(170, 225, 240);
+    text-transform: uppercase;
+    height: 30px;
+    width: auto;
+    font-weight: bolder;
+
+}
+input[type=submit]:hover, 
+input[type=button]:hover{
+    background-color: rgb(27, 78, 22);
+    color: rgb(141, 141, 185);
+   
+}
+
+input[type=text]:valid, 
+textarea:valid,
+input[type=date]:valid{
+    background-color: rgb(95, 247, 103);
+    
+}
+
+input[type=text]:invalid, 
+textarea:invalid,
+input[type=date]:invalid{
+    background-color: rgb(243, 208, 111);
+    
+
+}

@@ -1,0 +1,54 @@
+
+body{
+    text-align: center;
+    background-image: url(/IMAGE/Papel.jpg);
+    width: 100x;
+    height: 100vh;
+    background-size: cover;
+    font-size: 18px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+input, textarea{
+    height: 20px;
+    border: solid 1px rgb(1, 12, 27);
+    border-radius: 5px;
+    
+}https:github.com/USIS039818/FormEstudiante.git
+textarea{
+    height: auto;
+}
+input[type=text]{
+    margin-left: 10%;
+}
+input[type=submit], 
+input[type=button]{
+    background-color: rgb(74, 137, 255);
+    color: rgb(1, 8, 10);
+    text-transform: uppercase;
+    height: 30px;
+    width: auto;
+    font-weight: bolder;
+
+
+}
+input[type=submit]:hover, 
+input[type=button]:hover{
+    background-color: rgb(236, 109, 109);
+    color: rgb(186, 186, 252);
+   
+}
+
+input[type=text]:valid, 
+textarea:valid,
+input[type=date]:valid{
+    background-color: rgb(156, 253, 177);
+    
+}
+
+input[type=text]:invalid, 
+textarea:invalid,
+input[type=date]:invalid{
+    background-color: rgb(107, 240, 66);
+    
+transform: translatex(-50%) translateY(-50%);
+}
